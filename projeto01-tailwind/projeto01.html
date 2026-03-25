@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Card Profile</title>
+    <title>Profile Card</title>
+    <script src="http://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-gray-200">
+    <div class="container mx-auto p-4">
+        <div class="flex flex-col md:flex-row gap-5">
+
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <img src="images/meme01.png" alt="Profile" class="rounded-full p-4" />
+                <h2 class="font-bold text-2xl text-center">Felipe Lima</h2>
+                <p class="text-gray-600 text-center">Desenvolvedor Front End 🚀</p>
+            </div>
+
+            <div class="md:w-2/3">
+                <h2 class="text-center font-bold text-xl">Projetos</h2>
+                <div class="grid grid-cols-1 sm:gri d-cols-2">
+                    <div class="bg-white shadow-md rounded-lg p-4 mb-4">
+                        <h3 class="font-bold text-xl">Projeto 01</h3>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae non qui in?</p>
+                    </div>
+                    <div class="bg-white shadow-md rounded-lg p-4">
+                        <h3 class="font-bold text-xl">Projeto 02</h3>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae non qui in?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
