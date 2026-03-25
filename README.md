@@ -1,4 +1,4 @@
 #Projeto-01
-![Imagem](images/projeto-01-tailwind.png.png)
+![Imagem](projeto01-tailwind/images/projeto-01-tailwind.png.png)
 
 # tailwind-semana01
